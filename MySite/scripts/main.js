@@ -1,4 +1,4 @@
-/* var yes = confirm("would you like to enter your name?")
+var yes = confirm("would you like to enter your name?")
 
 if(yes){
 var whoBU = prompt("What is your name?")
