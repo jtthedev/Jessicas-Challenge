@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Jessica's Challenge </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+    <body>
+      <div id="Head"><img src="images/head.jpg"> </div>
+        <div id="Content">
+            <div id="box1">
+              <p>Yesterday, Jessica decided to challeng me. She wanted
+                to push me out of my comfort-zone and get me to build something.
+                This is my answer to her challenge. <br/>
+                <p>Please enter your first name below:</p>
+                <input id="input001" type="text" /><button onclick="btn001()">Confirm</button>
+                <p id="message001"></p>
+
+                <script>
+                  function btn001() {
+                    var text001;
+                    var colors001 = document.getElementById("input001").value;
+                    switch (colors001) {
+                      case "Jessica":
+                        text001 = "Danke for the challenge, Jessica!";
+                        break;
+                      case "jessica":
+                          text001 = "Thank you for the challenge!";
+                          break;
+                      default:
+                            text001 = "....und du bist?";
+                    }
+                    document.getElementById("message001").innerHTML = text001;
+                  }
+
+                  </script>
+                <br/>
+                <p></p>
+                Click <a href="gallery.html" target="_blank">here</a> for some random pictures...
+              </p>
+
+            </div>
+            <div id="box2">
+              <p>Jessica reminded me that I am great.<br/>
+              Before having my first session with Jessica, I wasnt really sold on the idea.
+            <br> I am now definitely a believer in Hypnotherapy!
+              <br/>Thank you so damn much!</p>
+            </div>
+        </div>
+        <div id="Links"
+            <ul>
+              <li><a href="https://www.facebook.com/josh.blank.9" target="_blank">Facebook </a></li>
+              <li><a href="https://twitter.com/TheRealBuggD" target="_blank">Twitter</a></li>
+              <li><a href="https://instagram.com/therealbuggd" target="_blank">Instagram</a></a></li>
+              <li><a href="http://a.co/bSKuaj3" target="_blank">Amazon</a></li>
+              <li><a href="http://youtube.com" target="_blank">Youtube</a></li>
+              <li><a href="http://playstation.com" target="_blank">Playstation</a></li>
+            </ul>
+        </div>
+        <div id="Footer">
+          <p>Copywright &copy; 2017 BuggD</p>
+        </div>
+      </body>
+
+</html>
